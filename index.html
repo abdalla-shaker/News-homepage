@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header flex justify-between align-center">
+      <figure class="logo-container">
+        <img src="assets/images/logo.svg" alt="Logo" />
+      </figure>
+      <nav class="header--nav">
+        <ul class="header--nav-list flex justify-center">
+          <li class="header-nav-list--item">
+            <a href="#" class="header--link">Home</a>
+          </li>
+          <li class="header-nav-list--item">
+            <a href="#" class="header--link">New</a>
+          </li>
+          <li class="header-nav-list--item">
+            <a href="#" class="header--link">Popular</a>
+          </li>
+          <li class="header-nav-list--item">
+            <a href="#" class="header--link">Trending</a>
+          </li>
+          <li class="header-nav-list--item">
+            <a href="#" class="header--link">Categories</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-btn">
+        <img src="assets/images/icon-menu.svg" alt="Icon menu" class="open" />
+        <img
+          src="assets/images/icon-menu-close.svg"
+          alt="Icon menu"
+          class="close"
+        />
+      </button>
+    </header>
+
+    <main class="main grid grid--3-cols">
+      <section class="hero grid grid--2-cols">
+        <figure class="hero--image-container">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="Web 3 image" />
+        </figure>
+        <h1 class="primary-heading">The Bright Future of Web 3.0?</h1>
+        <div class="hero--text-cont">
+          <p class="hero--paragraph paragraph">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <button class="btn">Read more</button>
+        </div>
+      </section>
+      <aside class="aside">
+        <h2 class="aside--primary-heading">New</h2>
+
+        <article class="aside--article">
+          <h3 class="aside--secondary-heading">
+            <a href="#">Hydrogen VS Electric Cars</a>
+          </h3>
+          <p class="paragraph aside--paragraph">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </article>
+        <article class="aside--article">
+          <h3 class="aside--secondary-heading">
+            <a href="#">The Downsides of AI Artistry</a>
+          </h3>
+          <p class="paragraph aside--paragraph">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </article>
+        <article class="aside--article">
+          <h3 class="aside--secondary-heading">
+            <a href="#">Is VC Funding Drying Up?</a>
+          </h3>
+          <p class="paragraph aside--paragraph">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </article>
+      </aside>
+
+      <article class="article">
+        <figure class="article--image-container">
+          <img src="assets/images/image-retro-pcs.jpg" alt="Retro pcs" />
+        </figure>
+        <div class="article--text-container">
+          <span class="article--sub-heading">01</span>
+          <h2 class="article--primary-heading">
+            <a href="#">Reviving Retro PCs</a>
+          </h2>
+          <p class="article--description paragraph">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </article>
+      <article class="article">
+        <figure class="article--image-container">
+          <img src="assets/images/image-top-laptops.jpg" alt="Top laptops" />
+        </figure>
+        <div class="article--text-container">
+          <span class="article--sub-heading">02</span>
+          <h2 class="article--primary-heading">
+            <a href="#">Top 10 Laptops of 2022</a>
+          </h2>
+          <p class="article--description paragraph">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </article>
+      <article class="article">
+        <figure class="article--image-container">
+          <img
+            src="assets/images/image-gaming-growth.jpg"
+            alt="Gaming growth"
+          />
+        </figure>
+        <div class="article--text-container">
+          <span class="article--sub-heading">03</span>
+          <h2 class="article--primary-heading">
+            <a href="#">The Growth of Gaming</a>
+          </h2>
+          <p class="article--description paragraph">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <div class="attribution" role="none">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://abdalla-shaker.github.io/portfolio" target="_blank"
+        >abdalla shaker</a
+      >.
+    </div>
+  </body>
+</html>
