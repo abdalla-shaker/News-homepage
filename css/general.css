@@ -99,10 +99,6 @@ body {
   color: var(--dark-grayish-blue);
 }
 
-.mobile {
-  display: none;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
